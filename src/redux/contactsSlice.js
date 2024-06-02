@@ -1,8 +1,9 @@
 import { createSlice } from '@reduxjs/toolkit';
+import userContacts from '../userContacts.json';
 import { nanoid } from 'nanoid';
 
 const initialState = {
-  items: [],
+  items: userContacts,
 };
 
 const contactsSlice = createSlice({
