@@ -28,8 +28,8 @@ body {
   /* place-items: center; */
   min-width: 320px;
   min-height: 100vh;
-  margin-left: 20px;
-  margin-top: 30px;
+  padding-left: 20px;
+  padding-top: 30px;
   background-color: rgb(243, 247, 247);
 }
 

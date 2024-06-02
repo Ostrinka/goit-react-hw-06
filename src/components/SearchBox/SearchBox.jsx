@@ -9,6 +9,7 @@ export default function SearchBox() {
   const handleChange = (event) => {
     dispatch(setFilter(event.target.value));
   };
+  
   return (
     <div>
       <p>Find contacts by name</p>
