@@ -15,12 +15,12 @@ const filtersSlice = createSlice({
 });
 
 export const { setFilter } = filtersSlice.actions;
-export const selectFilter = state => state.filters;
+export const selectFilter = state => state.filter;
 export default filtersSlice.reducer;
 
 export const selectContact = state => state.contacts;
 const filterContacts = (contacts, filter) => {
-  return contacts.items.filter(contact =>
+  return contacts.items.filter((contact) =>
     contact.name.toLowerCase().includes(filter.name.toLowerCase())
   );
 };
